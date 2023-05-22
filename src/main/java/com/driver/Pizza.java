@@ -46,7 +46,7 @@ public class Pizza {
           isTopping = true;
           isCheese = true;
         }
-        else{
+        else if(!isTopping && !isVeg){
           this.price = this.price + tppngsnVeg;
           isTopping = true;
           isCheese = true;
